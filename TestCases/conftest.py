@@ -29,5 +29,5 @@ def init_driver():
 def init_login():
     driver = BaseDriver().init_driver()
     loginpage = Login_Page(driver)
-    loginpage.login_action(CD.web_url, CD.login_username, CD.login_passwd)
+    loginpage.login_action(CD.login_username, CD.login_passwd)
     yield  driver

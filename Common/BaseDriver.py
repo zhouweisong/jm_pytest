@@ -18,22 +18,70 @@ from appium import webdriver
 class BaseDriver():
 
     def init_driver(self):
-        #从配置文件中读取到设备信息。
-        #获取当前文件的绝对路径
-        caps_file = os.path.abspath(os.path.join(os.path.dirname(__file__),"../caps/caps.xlsx"))
-        wb = load_workbook(caps_file)
-        sh = wb.get_sheet_by_name("Sheet1")
+        # chuizi_jianguo
+        chuizi_jianguo = {}
+        chuizi_jianguo['platformName'] = 'Android'
+        chuizi_jianguo['platformVersion'] = '5.1.1'
+        chuizi_jianguo['automationName'] = 'uiautomator2'
+        chuizi_jianguo['deviceName'] = 'c8a135a3'
+        #chuizi_jianguo['app'] = '/Users/zws/longbeach/appium/jiemo.apk'
+        chuizi_jianguo['appPackage'] = 'com.jiemoapp'
+        chuizi_jianguo['appActivity'] = 'com.jiemoapp.activity.SplashActivity'
+        chuizi_jianguo['noReset'] = "False"
+        chuizi_jianguo["unicodeKeyboard"] = "True"
+        chuizi_jianguo["resetKeyboard"] = "True"
 
-        desired_caps = {}
-        desired_caps['platformName'] = sh.cell(row=2,column=1).value
-        desired_caps['platformVersion'] = sh.cell(row=2,column=2).value
-        desired_caps['deviceName'] = sh.cell(row=2,column=3).value
-        desired_caps['appPackage'] = sh.cell(row=2,column=5).value
-        desired_caps['appActivity'] = sh.cell(row=2,column=6).value
-        desired_caps['automationName'] = 'Uiautomator2'
+        # oppo_x9007
+        oppo_x9007 = {}
+        oppo_x9007['platformName'] = 'Android'
+        oppo_x9007['platformVersion'] = '4.4.2'
+        oppo_x9007['deviceName'] = '5b18cef9'
+        oppo_x9007['app'] = 'http://apk.s.diandian.com/jiemoApp/dev/jiemo_jiemo_1.4.31_10430_%E5%86%85%E7%BD%91_debug.apk'
+        oppo_x9007['noReset'] = "False"
+        oppo_x9007["unicodeKeyboard"] = "True"
+        oppo_x9007["resetKeyboard"] = "True"
 
-        #连接appium server,告诉appium自动化代码执行的对象。
-        return webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
+        # htc_d820u
+        htc_d820u = {}
+        htc_d820u['platformName'] = 'Android'
+        htc_d820u['platformVersion'] = '4.4.4'
+        htc_d820u['deviceName'] = 'HC4BSYC03884 '
+        htc_d820u[
+            'app'] = 'http://apk.s.diandian.com/jiemoApp/dev/jiemo_jiemo_1.4.31_10430_%E5%86%85%E7%BD%91_debug.apk'
+        htc_d820u['noReset'] = "False"
+        htc_d820u["unicodeKeyboard"] = "True"
+        htc_d820u["resetKeyboard"] = "True"
+
+        # simulator
+        simulator = {}
+        simulator['platformName'] = 'Android'
+        simulator['platformVersion'] = '7.1'
+        simulator['automationName'] = 'uiautomator2'
+        simulator['deviceName'] = 'Android Emulator'
+        simulator['app'] = '/Users/zws/longbeach/appium/jiemo.apk'
+        simulator['noReset'] = "True"
+        simulator["unicodeKeyboard"] = "True"
+        simulator["resetKeyboard"] = "True"
+
+        # mate_10
+        mate_10 = {}
+        mate_10['platformName'] = 'Android'
+        mate_10['platformVersion'] = '8.0'
+        mate_10['automationName'] = 'uiautomator2'
+        mate_10['deviceName'] = 'D3H0217A17005776'
+        mate_10['app'] = '/Users/zws/longbeach/appium/jiemo.apk'
+        mate_10['noReset'] = "False"
+        mate_10["unicodeKeyboard"] = "True"
+        mate_10["resetKeyboard"] = "True"
+
+        # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', mate_10)
+        # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', simulator)
+        driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', chuizi_jianguo)
+        # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',oppo_x9007)
+        # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',htc_d820u)
+        driver.implicitly_wait(10)
+
+        return driver
 
 
 

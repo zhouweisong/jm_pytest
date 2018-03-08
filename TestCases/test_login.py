@@ -36,7 +36,7 @@ class Test_Login:
 
     def test_login_wrong_password(self,init_driver):
         login = Login_Page(init_driver)
-        login.login_action(CD.web_url, LD.login_success_username, LD.login_wrong_passwd)
+        login.login_action(LD.login_success_username, LD.login_wrong_passwd)
         logging.info("测试用例：登陆----密码错误")
         message ='手机号或密码错误，请重新输入'
         login.get_toast_login_wrong(message)
