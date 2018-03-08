@@ -27,7 +27,7 @@ class Test_Login:
     @pytest.mark.smoke
     def test_login_ok(self,init_driver):
         login = Login_Page(init_driver)
-        login.login_action(CD.web_url,CD.login_username,CD.login_passwd)
+        login.login_action(CD.login_username,CD.login_passwd)
         logging.info("测试用例：正常登陆芥末校园。")
         homepage = Home_Page(init_driver)
         okname = homepage.get_ok_name()

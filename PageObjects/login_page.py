@@ -51,7 +51,7 @@ class Login_Page(BasePage):
     login_in_close = "com.jiemoapp:id/login_in_close"
 
     #验证码登录操作
-    def login_action(self, url, username,login_passwd):
+    def login_action(self, username,login_passwd):
         self.find_element(By.ID,self.login_id).click()
         self.find_element(By.ID,self.login_username_id).send_keys(username)
         self.find_element(By.ID,self.password_login_in_id).click()

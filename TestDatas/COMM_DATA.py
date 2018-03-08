@@ -11,8 +11,6 @@
 """
 __author__ = 'zws'
 
-web_url = "http://120.78.128.25:8765/Index/login.html"
-
 login_username = "17610086125"
 login_passwd = "84811586"
 login_verification_code = "1234"
