@@ -1,0 +1,91 @@
+ Wed, 07 Mar 2018 19:26:37  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": 5.1, "deviceName": "c8a135a3", "appPackage": "com.jiemoapp", "appActivity": "com.jiemoapp.activity.SplashActivity", "automationName": "Uiautomator2"}}
+ Wed, 07 Mar 2018 19:26:51  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:51  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:51  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:52  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:52  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:53  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/9010e6f6-186e-4469-887e-d12a37efb1ec/click {"id": "9010e6f6-186e-4469-887e-d12a37efb1ec", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:54  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:55  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:55  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:55  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:55  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/b19d1264-769d-4bf2-a685-971d3cd94e8a/value {"text": "17610086125", "value": ["1", "7", "6", "1", "0", "0", "8", "6", "1", "2", "5"], "id": "b19d1264-769d-4bf2-a685-971d3cd94e8a", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/password_login_in", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/password_login_in", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/c63698e0-fb8d-44ba-874b-619192399022/click {"id": "c63698e0-fb8d-44ba-874b-619192399022", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:56  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/login_in_password", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/login_in_password", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/bd1f445c-0c09-4fad-875d-851688bca545/value {"text": "84811586", "value": ["8", "4", "8", "1", "1", "5", "8", "6"], "id": "bd1f445c-0c09-4fad-875d-851688bca545", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/new_login_in", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/new_login_in", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/56188dee-1f7b-479d-8a64-33c6d3a9c50f/click {"id": "56188dee-1f7b-479d-8a64-33c6d3a9c50f", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:57  INFO test_login.py test_login_ok [ line:31 ] 测试用例：正常登陆芥末校园。
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/ok", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:57  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:58  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/ok", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:26:58  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:26:59  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/ok", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element {"using": "id", "value": "com.jiemoapp:id/ok", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:478 ] GET http://127.0.0.1:4723/wd/hub/session/62d47dea-0b61-4796-b0de-080462b6c528/element/3e1e0025-cc09-4353-9083-75fbfd792e58/attribute/name {"name": "name", "id": "3e1e0025-cc09-4353-9083-75fbfd792e58", "sessionId": "62d47dea-0b61-4796-b0de-080462b6c528"}
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:01  DEBUG test_login.py test_login_ok [ line:34 ] 这个okname元素的text值 ：好
+ Wed, 07 Mar 2018 19:27:01  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"platformName": "Android", "platformVersion": 5.1, "deviceName": "c8a135a3", "appPackage": "com.jiemoapp", "appActivity": "com.jiemoapp.activity.SplashActivity", "automationName": "Uiautomator2"}}
+ Wed, 07 Mar 2018 19:27:17  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:17  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:17  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:17  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/to_login", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element/fc0c58de-c965-4bd0-909e-1ce6c550a931/click {"id": "fc0c58de-c965-4bd0-909e-1ce6c550a931", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:19  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:20  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:20  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/login_in_phone_number", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element/3764ae40-c179-4309-ac04-e6ff2c47f628/value {"text": "17610086125", "value": ["1", "7", "6", "1", "0", "0", "8", "6", "1", "2", "5"], "id": "3764ae40-c179-4309-ac04-e6ff2c47f628", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:21  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/password_login_in", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/password_login_in", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element/b2d35520-c5cf-4e85-9ca5-4236361679e7/click {"id": "b2d35520-c5cf-4e85-9ca5-4236361679e7", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:22  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/login_in_password", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/login_in_password", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element/0dd353a0-4e05-4bf5-a611-14bcb6535136/value {"text": "7777777", "value": ["7", "7", "7", "7", "7", "7", "7"], "id": "0dd353a0-4e05-4bf5-a611-14bcb6535136", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/new_login_in", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "id", "value": "com.jiemoapp:id/new_login_in", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element/81479a6d-c7de-432b-bf2e-407027805433/click {"id": "81479a6d-c7de-432b-bf2e-407027805433", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  INFO test_login.py test_login_wrong_password [ line:40 ] 测试用例：登陆----密码错误
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "xpath", "value": "//*[@text='\u624b\u673a\u53f7\u6216\u5bc6\u7801\u9519\u8bef\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165']", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:565 ] Finished Request
+ Wed, 07 Mar 2018 19:27:23  DEBUG remote_connection.py _request [ line:478 ] POST http://127.0.0.1:4723/wd/hub/session/310172d7-7b0c-442a-84cb-5576566518f0/element {"using": "xpath", "value": "//*[@text='\u624b\u673a\u53f7\u6216\u5bc6\u7801\u9519\u8bef\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165']", "sessionId": "310172d7-7b0c-442a-84cb-5576566518f0"}
+ Wed, 07 Mar 2018 19:27:24  DEBUG remote_connection.py _request [ line:565 ] Finished Request

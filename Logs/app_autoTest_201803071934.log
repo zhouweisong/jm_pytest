@@ -1,0 +1,3 @@
+ Wed, 07 Mar 2018 19:34:39  INFO test_login.py test_login_ok [ line:31 ] 测试用例：正常登陆芥末校园。
+ Wed, 07 Mar 2018 19:34:43  INFO test_login.py test_login_ok [ line:34 ] 这个okname元素的text值 ：好
+ Wed, 07 Mar 2018 19:35:05  INFO test_login.py test_login_wrong_password [ line:40 ] 测试用例：登陆----密码错误
