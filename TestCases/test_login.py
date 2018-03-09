@@ -26,20 +26,26 @@ class Test_Login:
 
     @pytest.mark.smoke
     def test_login_ok(self,init_driver):
-        login = Login_Page(init_driver)
-        login.login_action(CD.login_username,CD.login_passwd)
+        home_page = Home_Page(init_driver)
+        login_pag = Login_Page(init_driver)
+
+        home_page.touch_login()
+        login_pag.login_action(CD.login_username,CD.login_passwd)
         logging.info("测试用例：正常登陆芥末校园。")
-        homepage = Home_Page(init_driver)
-        okname = homepage.get_ok_name()
+        okname = home_page.get_ok_name()
         logging.info("这个okname元素的text值 ：%s"%okname)
         assert okname == '好'
 
+    @pytest.mark.debug
     def test_login_wrong_password(self,init_driver):
-        login = Login_Page(init_driver)
-        login.login_action(LD.login_success_username, LD.login_wrong_passwd)
+        home_page = Home_Page(init_driver)
+        login_page = Login_Page(init_driver)
+
+        home_page.touch_login()
+        login_page.login_action(LD.login_success_username, LD.login_wrong_passwd)
         logging.info("测试用例：登陆----密码错误")
-        message ='手机号或密码错误，请重新输入'
-        login.get_toast_login_wrong(message)
+        message ='啦啦号或密码错误，请重新输入'
+        assert login_page.toast_exist(message)
 
 
 

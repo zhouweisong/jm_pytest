@@ -28,8 +28,8 @@ class BaseDriver():
         chuizi_jianguo['appPackage'] = 'com.jiemoapp'
         chuizi_jianguo['appActivity'] = 'com.jiemoapp.activity.SplashActivity'
         chuizi_jianguo['noReset'] = "False"
-        chuizi_jianguo["unicodeKeyboard"] = "True"
-        chuizi_jianguo["resetKeyboard"] = "True"
+        chuizi_jianguo["unicodeKeyboard"] = "False"
+        chuizi_jianguo["resetKeyboard"] = "False"
 
         # oppo_x9007
         oppo_x9007 = {}

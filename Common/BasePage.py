@@ -25,14 +25,19 @@ class BasePage:
     def __init__(self,driver):
         self.driver = driver
 
-    #获取toast内容
-    def get_toast_login_wrong(self,message):
-        toast_login_wrong = '//*[@text=\'{}\']'.format(message)
-        t = WebDriverWait(self.driver, 30, 0.1).until(EC.presence_of_element_located((By.XPATH,toast_login_wrong)))
+    #查看toast内容是否出现
+    def toast_exist(self, toastmessage):
+        toast_loc = ("xpath", "//*[contains(@text,'%s')]" % toastmessage)
+        try:
+            t = WebDriverWait(self.driver,5,0.2).until(EC.presence_of_element_located(toast_loc))
+            return True
+        except:
+            return False
+
 
 
     #等待元素可见
-    def element_wait(self,by,locator,wait_time=5):
+    def element_wait(self,by,locator,wait_time=10):
         if by not in MobileBy.__dict__.values() and by not in By.__dict__.values():
             raise NameError("Please enter the correct targeting elements.")
         WebDriverWait(self.driver,wait_time,0.5).until(EC.presence_of_element_located((by,locator)))
@@ -43,7 +48,7 @@ class BasePage:
         time.sleep(0.5)
 
     #查找单个
-    def find_element(self,by,locator,wait_time=5):
+    def find_element(self,by,locator,wait_time=10):
         self.element_wait(by,locator,wait_time)
         return self.driver.find_element(by,locator)
 
@@ -57,17 +62,29 @@ class BasePage:
         logging.info("截图位置：%s" % (config.image_dir + img_name))
         self.driver.save_screenshot(config.image_dir + img_name)
 
-    #获取当前设备的屏幕大小
-    def getSize(self):
-        width = self.driver.get_window_size()["width"]
-        height = self.driver.get_window_size()["height"]
-        return (width, height)
+    # 向左滑动的函数
+    def swipe_left(self, duration):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        self.driver.swipe(x * 9 / 10, y / 2, x / 10, y / 2, duration)
 
-    # 右滑。x轴从小到大
-    def swipe_right(self, size):
-        self.driver.swipe(size[0] * 0.1, size[1] * 0.5, size[0] * 0.85, size[1] * 0.5, 500)
+    # 向上滑动函数
+    def swipe_up(self, duration):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        self.driver.swipe(x / 2, y * 9 / 10, x / 2, y * 6 / 10, duration)
 
-    # 左滑。x轴从大到小
-    def swipe_left(self, size):
-        self.driver.swipe(size[0] * 0.85, size[1] * 0.5, size[0] * 0.1, size[1] * 0.5, 500)
+    # 向右滑动函数
+    def swipe_right(self, duration):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        self.driver.swipe(x / 10, y / 2, x * 9 / 10, y / 2, duration)
+
+    # 向下滑动函数
+    def swipe_down(self, duration):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        self.driver.swipe(x / 2, y * 6 / 10, x / 2, y * 9 / 10, duration)
+
+
 

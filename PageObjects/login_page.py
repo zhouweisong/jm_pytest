@@ -16,21 +16,7 @@ from appium.webdriver.common.mobileby import MobileBy as By
 
 
 class Login_Page(BasePage):
-    #注册按钮
-    sign_up_id = "com.jiemoapp: id / to_sign_up"
-    #登录按钮
-    login_id = "com.jiemoapp:id/to_login"
-    #新鲜事按钮
-    home_newsfeed ="com.jiemoapp:id/home_newsfeed_icon"
-    #加好友按钮
-    home_friend ="com.jiemoapp: id / home_waterfall_icon"
-    #兴趣相投按钮
-    home_rss = "com.jiemoapp:id/home_rss_icon"
-    #悄悄话按钮
-    home_message = "com.jiemoapp:id/home_message_icon"
-    #我的按钮
-    home_profile = "com.jiemoapp:id/home_profile_icon"
-###############################################################   手机验证码登录
+
     #手机号按钮
     login_username_id = "com.jiemoapp:id/login_in_phone_number"
     #获取验证码按钮
@@ -50,9 +36,10 @@ class Login_Page(BasePage):
     #【X】按钮
     login_in_close = "com.jiemoapp:id/login_in_close"
 
+
+
     #验证码登录操作
     def login_action(self, username,login_passwd):
-        self.find_element(By.ID,self.login_id).click()
         self.find_element(By.ID,self.login_username_id).send_keys(username)
         self.find_element(By.ID,self.password_login_in_id).click()
         self.find_element(By.ID,self.login_in_password).send_keys(login_passwd)
