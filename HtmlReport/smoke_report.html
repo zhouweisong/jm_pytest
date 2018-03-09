@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 09-Mar-2018 at 13:33:00 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.16.1</p>
+    <p>Report generated on 09-Mar-2018 at 17:33:33 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.16.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -247,8 +247,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.3</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 55.54 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>2 tests ran in 54.58 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -259,12 +259,22 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="failed results-table-row">
+      <tbody class="passed results-table-row">
         <tr>
-          <td class="col-result">Failed</td>
-          <td class="col-name">TestCases/test_login.py::Test_Login::()::test_login_wrong_password</td>
-          <td class="col-duration">39.31</td>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_login.py::Test_Login::()::test_login_by_verification_ok</td>
+          <td class="col-duration">13.85</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">self = &lt;TestCases.test_login.Test_Login object at 0x108510668&gt;<br/>init_driver = &lt;appium.webdriver.webdriver.WebDriver (session=&quot;01a9bf14-635b-4316-a080-ffd6664f8930&quot;)&gt;<br/><br/>    @pytest.mark.debug<br/>    def test_login_wrong_password(self,init_driver):<br/>        home_page = Home_Page(init_driver)<br/>        login_page = Login_Page(init_driver)<br/>    <br/>        home_page.touch_login()<br/>        login_page.login_action(LD.login_success_username, LD.login_wrong_passwd)<br/>        logging.info(&quot;测试用例：登陆----密码错误&quot;)<br/>        message =&#x27;啦啦号或密码错误，请重新输入&#x27;<br/>    <br/>&gt;       assert login_page.toast_exist(message)<br/><span class="error">E       AssertionError: assert False</span><br/><span class="error">E        +  where False = &lt;bound method BasePage.toast_exist of &lt;PageObjects.login_page.Login_Page object at 0x10894ac18&gt;&gt;(&#x27;啦啦号或密码错误，请重新输入&#x27;)</span><br/><span class="error">E        +    where &lt;bound method BasePage.toast_exist of &lt;PageObjects.login_page.Login_Page object at 0x10894ac18&gt;&gt; = &lt;PageObjects.login_page.Login_Page object at 0x10894ac18&gt;.toast_exist</span><br/><br/>TestCases/test_login.py:49: AssertionError<br/>------------------------------ Captured log call -------------------------------<br/>test_login.py               46 INFO     测试用例：登陆----密码错误</div></td></tr></tbody></table></body></html>
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>test_login.py               56 INFO     测试用例：验证码登录----成功
+test_login.py               58 INFO     这个okname元素的text值 ：好</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">TestCases/test_login.py::Test_Login::()::test_login_by_wrong_verification</td>
+          <td class="col-duration">8.76</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">------------------------------ Captured log call -------------------------------<br/>test_login.py               68 INFO     测试用例：验证码登录----验证码错误</div></td></tr></tbody></table></body></html>
