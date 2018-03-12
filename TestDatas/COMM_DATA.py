@@ -11,6 +11,6 @@
 """
 __author__ = 'zws'
 
-login_username = "17610086125"
-login_passwd = "84811586"
-login_verification_code = "1234"
+login_username_zws = "17610086125"
+login_passwd_zws = "84811586"
+login_verification_code_zws = "1234"

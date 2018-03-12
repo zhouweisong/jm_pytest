@@ -36,6 +36,7 @@ class Home_Page(BasePage):
     # 我的按钮
     home_profile_icon = "com.jiemoapp:id/home_profile_icon"
 
+
     def touch_home_newsfeed(self):
         self.find_element(By.ID, self.home_newsfeed_icon).click()
 

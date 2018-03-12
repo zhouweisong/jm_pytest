@@ -29,7 +29,7 @@ class Test_Login:
         home_page = Home_Page(init_driver)
         login_pag = Login_Page(init_driver)
         home_page.touch_login()
-        login_pag.login_by_password_action(CD.login_username, CD.login_passwd)
+        login_pag.login_by_password_action(CD.login_username_zws, CD.login_passwd_zws)
         logging.info("测试用例：密码登录----成功")
         okname = home_page.get_ok_name()
         logging.info("这个okname元素的text值 ：%s"%okname)
