@@ -22,13 +22,13 @@ class Home_Page(BasePage):
     do_next = "com.jiemoapp:id/do_next"
 
     # 注册按钮
-    to_sign_up_icon = "com.jiemoapp: id / to_sign_up"
+    to_sign_up_icon = "com.jiemoapp:id/to_sign_up"
     # 登录按钮
     to_login_icon = "com.jiemoapp:id/to_login"
     # 新鲜事按钮
     home_newsfeed_icon = "com.jiemoapp:id/home_newsfeed_icon"
     # 加好友按钮
-    home_friend_icon = "com.jiemoapp: id / home_waterfall_icon"
+    home_friend_icon = "com.jiemoapp:id/home_waterfall_icon"
     # 兴趣相投按钮
     home_rss_icon = "com.jiemoapp:id/home_rss_icon"
     # 悄悄话按钮

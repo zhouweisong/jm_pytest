@@ -15,7 +15,6 @@ from PageObjects.login_page import Login_Page
 from PageObjects.home_page import Home_Page
 from TestDatas import login_datas as LD
 from TestDatas import COMM_DATA as CD
-import logging
 import pytest
 from Common.logger2 import *
 
@@ -44,7 +43,7 @@ class Test_Login:
         message ='手机号或密码错误，请重新输入'
         assert login_page.toast_exist(message)
 
-    @pytest.mark.debug
+
     def test_login_by_verification_ok(self,init_driver):
         home_page = Home_Page(init_driver)
         login_pag = Login_Page(init_driver)
@@ -55,7 +54,7 @@ class Test_Login:
         logging.info("这个okname元素的text值 ：%s"%okname)
         assert okname == '好'
 
-    @pytest.mark.debug
+
     def test_login_by_wrong_verification(self,init_driver):
         home_page = Home_Page(init_driver)
         login_pag = Login_Page(init_driver)
