@@ -14,7 +14,7 @@ __author__ = 'zws'
 from Common.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
-class Collega_Search(BasePage):
+class Collega_Search_Page(BasePage):
 
     #关闭按钮
     close = "com.jiemoapp:id/close"
@@ -30,7 +30,7 @@ class Collega_Search(BasePage):
         self.find_element(By.ID,self.close).click()
 
     def input_search(self,message):
-        self.find_element(By.ID,self.search).send_kyes(message)
+        self.find_element(By.ID,self.search).send_keys(message)
 
     def touch_delete(self):
         self.find_element(By.ID,self.delete).click()

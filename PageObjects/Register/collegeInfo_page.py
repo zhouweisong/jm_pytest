@@ -15,7 +15,7 @@ from Common.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
 
-class College_Info(BasePage):
+class College_Info_Page(BasePage):
     #返回按钮
     login_back = "com.jiemoapp:id/login_back"
     #学校名称

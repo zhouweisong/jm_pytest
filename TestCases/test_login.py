@@ -34,6 +34,7 @@ class Test_Login:
         logging.info("这个okname元素的text值 ：%s"%okname)
         assert okname == '好'
 
+    @pytest.mark.zws
     def test_login_by_wrong_password(self, init_driver):
         home_page = Home_Page(init_driver)
         login_page = Login_Page(init_driver)

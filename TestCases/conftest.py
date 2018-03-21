@@ -27,14 +27,16 @@ def init_driver():
 
 @pytest.fixture
 def init_add_friend():
-
     driver = BaseDriver().init_driver()
-
     home_page = Home_Page(driver)
     login_pag = Login_Page(driver)
-
     home_page.touch_login()
     login_pag.login_by_password_action(CD.login_username_zws, CD.login_passwd_zws)
     home_page.touch_do_next()
     home_page.touch_home_friend()
     yield driver
+
+@pytest.fixture()
+def init_register_ok():
+    driver = BaseDriver().init_driver()
+
