@@ -1,17 +1,16 @@
 """
 -------------------------------------------------
-   File Name：     main
+   File Name：     register_datas
    Description :
    Author :       zws
-   date：          2018/3/5
+   date：          2018/3/28
 -------------------------------------------------
    Change Activity:
-                   2018/3/5:
+                   2018/3/28:
 -------------------------------------------------
 """
 __author__ = 'zws'
 
+#未注册的手机号
+phone_unregistered = "13509000000"
 
-import pytest
-
-pytest.main(["-m register","--junitxml=HtmlReport/result.xml","--html=HtmlReport/smoke_report.html","-s"])

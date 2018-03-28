@@ -14,7 +14,7 @@ __author__ = 'zws'
 from Common.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
-
+#学院信息页面
 class College_Info_Page(BasePage):
     #返回按钮
     login_back = "com.jiemoapp:id/login_back"

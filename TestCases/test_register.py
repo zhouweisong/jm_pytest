@@ -23,12 +23,14 @@ from PageObjects.Register.collegeSearch_page import Collega_Search_Page
 
 
 
-@pytest.mark.usefixtures('init_driver')
+@pytest.mark.usefixtures('init_register')
 class Test_Register:
 
     #注册正常
     @pytest.mark.register
-    def test_register_ok(self,init_driver):
-        basic_info =Basic_Info_Page(init_driver)
+    def test_register_ok(self,init_register):
+        basic_info =Basic_Info_Page(init_register)
+        register_1 = Set_The_Phone_Number_Page(init_register)
+        register_1.action_register_step1(phone='13700105430',verification_code='1234')
 
 

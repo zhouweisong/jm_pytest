@@ -37,7 +37,7 @@ class BasePage:
 
 
     #等待元素可见
-    def element_wait(self,by,locator,wait_time=200):
+    def element_wait(self,by,locator,wait_time=2000):
         if by not in MobileBy.__dict__.values() and by not in By.__dict__.values():
             raise NameError("Please enter the correct targeting elements.")
         WebDriverWait(self.driver,wait_time,0.5).until(EC.presence_of_element_located((by,locator)))

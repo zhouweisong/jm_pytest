@@ -37,6 +37,10 @@ def init_add_friend():
     yield driver
 
 @pytest.fixture()
-def init_register_ok():
+def init_register():
     driver = BaseDriver().init_driver()
+    home_page = Home_Page(driver)
+    home_page.touch_to_sign_up()
+    yield driver
+
 

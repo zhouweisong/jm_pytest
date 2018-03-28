@@ -1,5 +1,7 @@
 {
   "TestCases/test_addFriend.py::Test_Add_Friend::()::test_add_friend": true,
+  "TestCases/test_login.py::Test_Login::()::test_login_by_verification_ok": true,
   "TestCases/test_login.py::Test_Login::()::test_login_by_wrong_password": true,
+  "TestCases/test_login.py::Test_Login::()::test_login_by_wrong_verification": true,
   "TestCases/test_login.py::Test_Login::()::test_login_wrong_password": true
 }
