@@ -60,6 +60,8 @@ class BaseDriver():
         simulator['noReset'] = "False"
         simulator['appPackage'] = 'com.jiemoapp'
         simulator['appActivity'] = 'com.jiemoapp.activity.SplashActivity'
+        simulator["unicodeKeyboard"] = "True"
+        simulator["resetKeyboard"] = "True"
 
         # mate_10
         mate_10 = {}
@@ -73,8 +75,8 @@ class BaseDriver():
         mate_10["resetKeyboard"] = "True"
 
         # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', mate_10)
-        driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', simulator)
-        #driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', chuizi_jianguo)
+        #driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', simulator)
+        driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', chuizi_jianguo)
         # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',oppo_x9007)
         # driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub',htc_d820u)
         driver.implicitly_wait(10)

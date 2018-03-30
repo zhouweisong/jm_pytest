@@ -15,9 +15,12 @@ from Common.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
 
 class Upload_Head_Picture(BasePage):
+    #返回按钮
     login_back = "com.jiemoapp:id/login_back"
+    #上传头像按钮
     user_avatar = "com.jiemoapp:id/user_avatar"
-    ok = "com.jiemoapp:id/ok"
+    #进入芥末按钮
+    ok = "ok"
 
     def touch_login_back(self):
         self.find_element(By.ID,self.login_back).click()

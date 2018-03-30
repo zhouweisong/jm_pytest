@@ -14,4 +14,9 @@ __author__ = 'zws'
 
 import pytest
 
-pytest.main(["-m register","--junitxml=HtmlReport/result.xml","--html=HtmlReport/smoke_report.html","-s"])
+pytest.main(["-m register","--html=HtmlReport/smoke_report.html","-s"])
+
+
+"""
+"--junitxml=HtmlReport/result.xml"
+"""

@@ -13,6 +13,7 @@ __author__ = 'zws'
 
 from Common.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy as By
+from Common.logger2 import *
 
 class Collega_Search_Page(BasePage):
 
@@ -24,6 +25,8 @@ class Collega_Search_Page(BasePage):
     delete = "com.jiemoapp:id/delete"
     #搜索按钮
     search_icon = "com.jiemoapp:id/search_icon"
+    #搜索结果为"北京邮电大学"
+    bjyd_college_xpath = '//android.widget.TextView[@resource-id=\"com.jiemoapp:id/group_name\" and @text=\"北京邮电大学\"]'
 
 
     def touch_close(self):
@@ -37,6 +40,17 @@ class Collega_Search_Page(BasePage):
 
     def touch_search_icon(self):
         self.find_element(By.ID,self.search_icon).click()
+
+    def touch_bjyd_college(self,xpath):
+        self.find_element(By.XPATH,xpath).click()
+
+    #选择北京邮电大学
+    def action_collage_search(self,college_name,college_xpath):
+        self.input_search(message=college_name)
+        self.touch_search_icon()
+        self.touch_bjyd_college(college_xpath)
+
+
 
 
 

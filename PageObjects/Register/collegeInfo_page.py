@@ -17,26 +17,32 @@ from appium.webdriver.common.mobileby import MobileBy as By
 #学院信息页面
 class College_Info_Page(BasePage):
     #返回按钮
-    login_back = "com.jiemoapp:id/login_back"
+    login_back = "login_back"
     #学校名称
-    register_school_name = "com.jiemoapp:id/register_school_name"
+    register_school_info = "register_school_info"
     #院系名称
-    register_academy_name = "com.jiemoapp:id/register_academy_name"
+    register_school_academy = "register_school_academy"
     #年级名称
-    register_year = "com.jiemoapp:id/register_year"
+    register_school_year = "register_school_year"
+    #下一步
+    ok = "ok"
 
 
     def touch_login_back(self):
         self.find_element(By.ID,self.login_back).click()
 
     def touch_register_school_name(self):
-        self.find_element(By.ID,self.register_school_name).click()
+        self.find_element(By.ID, self.register_school_info).click()
 
     def touch_register_academy_name(self):
-        self.find_element(By.ID,self.register_academy_name).click()
+        self.find_element(By.ID, self.register_school_academy).click()
 
     def touch_register_year(self):
-        self.find_element(By.ID,self.register_year).click()
+        self.find_element(By.ID, self.register_school_year).click()
+
+    def touch_ok(self):
+        self.find_element(By.ID,self.ok).click()
+
 
 
 

@@ -32,6 +32,10 @@ class Set_The_Password_Page(BasePage):
     def touch_ok(self):
         self.find_element(By.ID,self.ok).click()
 
+    def action_set_password(self,password):
+        self.inpu_set_password_et(password)
+        self.touch_ok()
+
 
 
 

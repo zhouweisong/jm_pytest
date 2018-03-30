@@ -1,1 +1,50 @@
-<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="0" name="pytest" skips="0" tests="1" time="23.798"><testcase classname="TestCases.test_register.Test_Register" file="TestCases/test_register.py" line="29" name="test_register_ok" time="23.457117319107056"></testcase></testsuite>
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="1" name="pytest" skips="0" tests="1" time="20.296"><testcase classname="TestCases.test_register.Test_Register" file="TestCases/test_register.py" line="31" name="test_register_ok" time="19.682737827301025"><failure message="configparser.NoSectionError: No section: &apos;REGISTERCONF&apos;">self = &lt;configparser.ConfigParser object at 0x10cad6710&gt;
+section = &apos;REGISTERCONF&apos;, vars = None
+
+    def _unify_values(self, section, vars):
+        &quot;&quot;&quot;Create a sequence of lookups with &apos;vars&apos; taking priority over
+            the &apos;section&apos; which takes priority over the DEFAULTSECT.
+    
+            &quot;&quot;&quot;
+        sectiondict = {}
+        try:
+&gt;           sectiondict = self._sections[section]
+E           KeyError: &apos;REGISTERCONF&apos;
+
+/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/configparser.py:1138: KeyError
+
+During handling of the above exception, another exception occurred:
+
+self = &lt;TestCases.test_register.Test_Register object at 0x10caa5160&gt;
+init_register = &lt;appium.webdriver.webdriver.WebDriver (session=&quot;703043c0-eddb-47ac-8d05-3eacbc042ef2&quot;)&gt;
+
+    @pytest.mark.register
+    def test_register_ok(self,init_register):
+        rw_config = RW_Config()
+&gt;       rw_config.set_config(&apos;regiser.conf&apos;,&apos;REGISTERCONF&apos;,&apos;register_ok&apos;,&apos;phone&apos;)
+
+TestCases/test_register.py:35: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Common/RW_Config.py:37: in set_config
+    config = eval(cf.get(section,option))
+/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/configparser.py:781: in get
+    d = self._unify_values(section, vars)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;configparser.ConfigParser object at 0x10cad6710&gt;
+section = &apos;REGISTERCONF&apos;, vars = None
+
+    def _unify_values(self, section, vars):
+        &quot;&quot;&quot;Create a sequence of lookups with &apos;vars&apos; taking priority over
+            the &apos;section&apos; which takes priority over the DEFAULTSECT.
+    
+            &quot;&quot;&quot;
+        sectiondict = {}
+        try:
+            sectiondict = self._sections[section]
+        except KeyError:
+            if section != self.default_section:
+&gt;               raise NoSectionError(section)
+E               configparser.NoSectionError: No section: &apos;REGISTERCONF&apos;
+
+/usr/local/Cellar/python3/3.6.3/Frameworks/Python.framework/Versions/3.6/lib/python3.6/configparser.py:1141: NoSectionError</failure></testcase></testsuite>

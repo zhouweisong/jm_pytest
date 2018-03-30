@@ -228,7 +228,7 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <p>Report generated on 28-Mar-2018 at 12:54:01 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.16.1</p>
+    <p>Report generated on 30-Mar-2018 at 09:03:53 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.16.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -247,7 +247,7 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.3</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 23.80 seconds. </p>
+    <p>1 tests ran in 47.50 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -263,40 +263,160 @@ function filter_table(elem) {
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">TestCases/test_register.py::Test_Register::()::test_register_ok</td>
-          <td class="col-duration">13.64</td>
+          <td class="col-duration">30.74</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log">------------------------------ Captured log setup ------------------------------<br/>remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session {&quot;capabilities&quot;: {&quot;firstMatch&quot;: [{}], &quot;alwaysMatch&quot;: {&quot;platformName&quot;: &quot;Android&quot;}}, &quot;desiredCapabilities&quot;: {&quot;platformName&quot;: &quot;Android&quot;, &quot;platformVersion&quot;: &quot;4.4&quot;, &quot;deviceName&quot;: &quot;Android Emulator&quot;, &quot;noReset&quot;: &quot;False&quot;, &quot;appPackage&quot;: &quot;com.jiemoapp&quot;, &quot;appActivity&quot;: &quot;com.jiemoapp.activity.SplashActivity&quot;}}
+            <div class="log">------------------------------ Captured log setup ------------------------------<br/>remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session {&quot;capabilities&quot;: {&quot;firstMatch&quot;: [{}], &quot;alwaysMatch&quot;: {&quot;platformName&quot;: &quot;Android&quot;}}, &quot;desiredCapabilities&quot;: {&quot;platformName&quot;: &quot;Android&quot;, &quot;platformVersion&quot;: &quot;5.1.1&quot;, &quot;automationName&quot;: &quot;uiautomator2&quot;, &quot;deviceName&quot;: &quot;c8a135a3&quot;, &quot;appPackage&quot;: &quot;com.jiemoapp&quot;, &quot;appActivity&quot;: &quot;com.jiemoapp.activity.SplashActivity&quot;, &quot;noReset&quot;: &quot;False&quot;}}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/timeouts/implicit_wait {&quot;ms&quot;: 10000.0, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/timeouts/implicit_wait {&quot;ms&quot;: 10000.0, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/to_sign_up&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/to_sign_up&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/to_sign_up&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/to_sign_up&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element/2/click {&quot;id&quot;: &quot;2&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
-remote_connection.py       565 DEBUG    Finished Request------------------------------ Captured log call -------------------------------<br/>remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/sign_up_phone_number&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/cd7eb953-4d94-4208-97ab-07519f1d8406/click {&quot;id&quot;: &quot;cd7eb953-4d94-4208-97ab-07519f1d8406&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request------------------------------ Captured log call -------------------------------<br/>remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/sign_up_phone_number&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/sign_up_phone_number&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/sign_up_phone_number&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element/4/value {&quot;text&quot;: &quot;13700105430&quot;, &quot;value&quot;: [&quot;1&quot;, &quot;3&quot;, &quot;7&quot;, &quot;0&quot;, &quot;0&quot;, &quot;1&quot;, &quot;0&quot;, &quot;5&quot;, &quot;4&quot;, &quot;3&quot;, &quot;0&quot;], &quot;id&quot;: &quot;4&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/6d79348d-2b8a-47fe-b380-88028675c34c/value {&quot;text&quot;: &quot;13200100024&quot;, &quot;value&quot;: [&quot;1&quot;, &quot;3&quot;, &quot;2&quot;, &quot;0&quot;, &quot;0&quot;, &quot;1&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;2&quot;, &quot;4&quot;], &quot;id&quot;: &quot;6d79348d-2b8a-47fe-b380-88028675c34c&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;fetch_verification_code&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;fetch_verification_code&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;fetch_verification_code&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;fetch_verification_code&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element/6/click {&quot;id&quot;: &quot;6&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/07c8d433-95a6-46b9-ace8-de2e5f8291b0/click {&quot;id&quot;: &quot;07c8d433-95a6-46b9-ace8-de2e5f8291b0&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;sign_up_verification_code&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;sign_up_verification_code&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;sign_up_verification_code&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;sign_up_verification_code&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element/8/value {&quot;text&quot;: &quot;1234&quot;, &quot;value&quot;: [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;], &quot;id&quot;: &quot;8&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/06f88ba9-09ee-4b96-9e6d-1aacce8c45bc/value {&quot;text&quot;: &quot;1234&quot;, &quot;value&quot;: [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;], &quot;id&quot;: &quot;06f88ba9-09ee-4b96-9e6d-1aacce8c45bc&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request
-remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/21d31ddb-dfac-4f7a-bfc4-62605132fc44/element/10/click {&quot;id&quot;: &quot;10&quot;, &quot;sessionId&quot;: &quot;21d31ddb-dfac-4f7a-bfc4-62605132fc44&quot;}
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/4d853011-0c2b-4418-b3e1-24e6f3f19b98/click {&quot;id&quot;: &quot;4d853011-0c2b-4418-b3e1-24e6f3f19b98&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/set_password_et&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/set_password_et&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/24241bba-bafc-4673-b174-cbad1f7169e3/value {&quot;text&quot;: &quot;123456&quot;, &quot;value&quot;: [&quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;], &quot;id&quot;: &quot;24241bba-bafc-4673-b174-cbad1f7169e3&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/26b20574-29be-4756-891f-d70c396cebe8/click {&quot;id&quot;: &quot;26b20574-29be-4756-891f-d70c396cebe8&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_info&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_info&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/7a1614ad-ce26-4c13-8e6e-09d50bb22b2d/click {&quot;id&quot;: &quot;7a1614ad-ce26-4c13-8e6e-09d50bb22b2d&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/40b73eca-fd98-42a1-a082-ba4d63ca335f/value {&quot;text&quot;: &quot;\u5317\u4eac\u90ae\u7535\u5927\u5b66&quot;, &quot;value&quot;: [&quot;\u5317&quot;, &quot;\u4eac&quot;, &quot;\u90ae&quot;, &quot;\u7535&quot;, &quot;\u5927&quot;, &quot;\u5b66&quot;], &quot;id&quot;: &quot;40b73eca-fd98-42a1-a082-ba4d63ca335f&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/00e7f588-7381-4b52-9a87-fffa4634483a/value {&quot;text&quot;: &quot;\u5317\u4eac\u90ae\u7535\u5927\u5b66&quot;, &quot;value&quot;: [&quot;\u5317&quot;, &quot;\u4eac&quot;, &quot;\u90ae&quot;, &quot;\u7535&quot;, &quot;\u5927&quot;, &quot;\u5b66&quot;], &quot;id&quot;: &quot;00e7f588-7381-4b52-9a87-fffa4634483a&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search_icon&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/search_icon&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/6c5c69a2-6cf4-418a-b729-790a47c5678c/click {&quot;id&quot;: &quot;6c5c69a2-6cf4-418a-b729-790a47c5678c&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;xpath&quot;, &quot;value&quot;: &quot;//android.widget.TextView[@resource-id=\&quot;com.jiemoapp:id/group_name\&quot; and @text=\&quot;\u5317\u4eac\u90ae\u7535\u5927\u5b66\&quot;]&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;xpath&quot;, &quot;value&quot;: &quot;//android.widget.TextView[@resource-id=\&quot;com.jiemoapp:id/group_name\&quot; and @text=\&quot;\u5317\u4eac\u90ae\u7535\u5927\u5b66\&quot;]&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/bbf53ebd-7441-4471-a9f8-8f24d6b39f6a/click {&quot;id&quot;: &quot;bbf53ebd-7441-4471-a9f8-8f24d6b39f6a&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_academy&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_academy&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/226e4725-5774-4264-9cf2-d9d1231d2ea7/click {&quot;id&quot;: &quot;226e4725-5774-4264-9cf2-d9d1231d2ea7&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u8ba1\u7b97\u673a\u5b66\u9662\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u8ba1\u7b97\u673a\u5b66\u9662\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/0cfda2ed-757f-4dc2-a13a-ed57ecdca0cd/click {&quot;id&quot;: &quot;0cfda2ed-757f-4dc2-a13a-ed57ecdca0cd&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_year&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;register_school_year&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/f9b98ff5-a962-4094-9de8-7ddcbd50deb8/click {&quot;id&quot;: &quot;f9b98ff5-a962-4094-9de8-7ddcbd50deb8&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u786e\u5b9a\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u786e\u5b9a\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/5c425ea9-6fe8-4b31-adef-19d6416ab23e/click {&quot;id&quot;: &quot;5c425ea9-6fe8-4b31-adef-19d6416ab23e&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/ccd8ab09-b360-41a1-ae9e-2fa1c8d37a5c/click {&quot;id&quot;: &quot;ccd8ab09-b360-41a1-ae9e-2fa1c8d37a5c&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/user_name_et&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/user_name_et&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/418f7f95-f40f-46ef-ad4a-3b9a2783b69f/value {&quot;text&quot;: &quot;\u7f57\u4f2f\u7279app&quot;, &quot;value&quot;: [&quot;\u7f57&quot;, &quot;\u4f2f&quot;, &quot;\u7279&quot;, &quot;a&quot;, &quot;p&quot;, &quot;p&quot;], &quot;id&quot;: &quot;418f7f95-f40f-46ef-ad4a-3b9a2783b69f&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/gender_male_tv&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/gender_male_tv&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/f25efa5d-c67c-4a65-848e-ce87075f90e3/click {&quot;id&quot;: &quot;f25efa5d-c67c-4a65-848e-ce87075f90e3&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/2d3b694b-8cec-413c-87c0-7e1beef88750/click {&quot;id&quot;: &quot;2d3b694b-8cec-413c-87c0-7e1beef88750&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/user_avatar&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;com.jiemoapp:id/user_avatar&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/d0a26ee4-89d3-4e88-966a-11e7f30bf242/click {&quot;id&quot;: &quot;d0a26ee4-89d3-4e88-966a-11e7f30bf242&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u4ece\u76f8\u518c\u9009\u62e9\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;-android uiautomator&quot;, &quot;value&quot;: &quot;new UiSelector().text(\&quot;\u4ece\u76f8\u518c\u9009\u62e9\&quot;)&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/872c976e-6ab9-41e4-bd13-f87e987a732b/click {&quot;id&quot;: &quot;872c976e-6ab9-41e4-bd13-f87e987a732b&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;xpath&quot;, &quot;value&quot;: &quot;//android.widget.GridView[@resource-id=\&quot;com.jiemoapp:id/grid\&quot;]/android.widget.FrameLayout[2]/android.widget.ImageView[1]&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;xpath&quot;, &quot;value&quot;: &quot;//android.widget.GridView[@resource-id=\&quot;com.jiemoapp:id/grid\&quot;]/android.widget.FrameLayout[2]/android.widget.ImageView[1]&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/bb3d913b-2fa7-415f-904e-1e9de670bdb8/click {&quot;id&quot;: &quot;bb3d913b-2fa7-415f-904e-1e9de670bdb8&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/66cfa35e-15af-4c2f-b4af-a55bb8143352/click {&quot;id&quot;: &quot;66cfa35e-15af-4c2f-b4af-a55bb8143352&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;ok&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
+remote_connection.py       565 DEBUG    Finished Request
+remote_connection.py       478 DEBUG    POST http://127.0.0.1:4723/wd/hub/session/2fd23aee-2ede-4347-a2d7-0de4d37c1506/element/66bef366-77e3-481a-b696-7ab0052c0250/click {&quot;id&quot;: &quot;66bef366-77e3-481a-b696-7ab0052c0250&quot;, &quot;sessionId&quot;: &quot;2fd23aee-2ede-4347-a2d7-0de4d37c1506&quot;}
 remote_connection.py       565 DEBUG    Finished Request</div></td></tr></tbody></table></body></html>
